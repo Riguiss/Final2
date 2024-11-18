@@ -1,0 +1,39 @@
+
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+    background-color: #fbe4d4;
+    text-align: center;
+}
+
+/* Estilo do container geral */
+.container {
+    display: flex; /* Organiza as imagens horizontalmente */
+    justify-content: center; /* Centraliza os itens no centro da página */
+    gap: 70px; /* Espaço entre as imagens */
+    margin-top: 100px;
+}
+
+/* Estilo para cada item (imagem + descrição) */
+.item-1 {
+    text-align: center; /* Centraliza o texto em cada item */
+}
+
+/* Estilo das imagens */
+.container img {
+    width: 450px; /* Define largura fixa */
+    height: auto; /* Mantém a proporção */
+    border: 1px solid #ccc; /* Adiciona uma borda leve */
+    border-radius: 8px; /* Deixa as bordas arredondadas */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra leve */
+}
+
+/* Estilo das descrições */
+.descricao {
+    margin-top: 10px;
+    font-size: 25px; /* Tamanho menor para o texto */
+    color: #555; /* Cor cinza para o texto */
+}
+
